@@ -1,0 +1,289 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li
+{
+    list-style: none;
+}
+a{
+text-decoration: none;
+}
+.container
+{
+    background-color: purple;
+    height: 600px;
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box1
+,
+.box2
+,
+.box3
+,
+.box4
+{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 1rem;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+}
+nav .logo
+{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+nav .nav-links
+{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10rem;
+}
+.box5
+{
+    border: 1px solid rgb(48, 48, 126);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5 .text h1
+{
+    color: white;
+    padding: 10px;
+    background-color: rgba(31, 90, 209, 0.929);
+}
+.card-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card1
+,
+.card2
+,
+.card3
+{
+    background-color: rgba(31, 90, 209, 0.929);
+    height: 210px;
+    width: 202px;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.first-row
+,
+.second-row
+,
+.third-row
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    font-size: 25px;
+    
+}
+.small-box1
+,
+.small-box2
+,
+.small-box3
+,
+.small-box4
+,
+.small-box5
+,
+.small-box6
+,
+.small-box7
+,
+.small-box8
+,
+.small-box9
+,
+.small-box10
+
+{
+    border: 2px solid rgba(31, 90, 209, 0.929);
+    color: white;
+    background-color: rgba(31, 90, 209, 0.929);
+    width: 102px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.numbers
+{
+    margin-top: 1rem;
+    border: 3px solid rgba(198, 125, 24, 0.984);
+    height: 500px;
+    width: 500px;
+    display: flex;
+}
+.number-1
+{
+    background-color: rgb(3, 215, 3);
+    color: white;
+    display: flex;
+    padding: 10px;
+    font-size: 10px;
+    height: fit-content;
+    margin-top: 5%;
+
+}
+.number-2
+{
+    background-color:rgb(5, 145, 225);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    height: fit-content;
+}
+.number-3
+{
+    background-color:rgb(165, 9, 193);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    height: fit-content;
+}
+.number-4
+{
+    background-color:rgb(34, 24, 82);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.number-5
+{
+    background-color:rgb(153, 195, 27);
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    height: fit-content;
+    align-self:center;
+}
+.number-6
+{
+    background-color:orange;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    height: fit-content;
+}
+.number-7
+{
+    background-color:rgba(245, 55, 55, 0.61);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    height: fit-content;
+}
+.number-8
+{
+    background-color:gray;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    height: fit-content;
+}
+.number-9
+{
+    background-color:rgb(3, 215, 3);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    height: fit-content;
+}
+.number-10
+{
+    background-color:darkgreen;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    height: fit-content;
+    align-self: flex-end;
+}
+.numbers-colomus
+{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    /* align-items: center; */
+    margin-top: 1rem;
+    border: 2px solid orange;
+    text-align: center;
+}
+.number1,.number2,.number3,.number4,.number5,.number6,.number7,.number8,.number9,.number10
+{
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+.number1
+{
+    background-color: lightgreen;
+}
+.number2
+{
+    background-color: lightblue;
+}
+.number3
+{
+    background-color: rgb(220, 44, 220);
+}
+.number4
+{
+    background: rgb(30, 30, 63);
+}
+.number5
+{
+    background-color: yellow;
+}
+.number6
+{
+    background-color: orange;
+}
+.number7
+{
+    background-color: rgb(168, 61, 61);
+}
+.number8
+{
+    background-color: gray;
+}
+.number9
+{
+    background-color: rgb(58, 188, 58);
+}
+.number10
+{
+    background-color: rgb(13, 56, 4);
+}
