@@ -1,0 +1,93 @@
+.grid-system
+{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 'header header header article article main-article main-article main main main main main'
+    'aside aside aside section section midnav midnav  left-nav left-nav left-nav left-nav left-nav'
+    'footer footer footer mid-section mid-section mid-section left-section left-section left-section end-section end-section end-section';
+}
+header
+{
+grid-area: header;
+background-color: lightgray;
+}
+article
+{
+    grid-area: article;
+
+}
+main
+{
+    grid-area: main;
+    background-color: lightgray;
+}
+aside{
+    grid-area: aside;
+    background-color: lightgray;
+}
+section
+{
+    grid-area: section;
+    display: grid;
+    gap: 10px;
+    width: 240px;
+}
+.left-nav
+{
+    grid-area: left-nav;
+    background-color: lightgray;
+}
+footer
+{
+    grid-area: footer;
+}
+.mid-section
+{
+    grid-area: mid-section;
+    background-color: lightgray;
+}
+.left-section
+{
+    grid-area: left-section;
+    background-color: lightgray;
+}
+.end-section
+{
+    grid-area: end-section;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: darkgray;
+}
+.footer
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: darkgray;
+}
+.midnav
+{
+    grid-area: midnav;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+.main-article
+{
+    grid-area: main-article;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: darkgray;
+}
+.article
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: darkgray;
+}
+.section 
+{
+    background-color: darkgray;
+}
