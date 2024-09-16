@@ -287,3 +287,117 @@ gap: 10rem;
 {
     background-color: rgb(13, 56, 4);
 }
+.flex-size
+{
+    margin-top: 1rem;
+    display: flex;
+}
+.flex-size .one
+{
+width: 75%;
+background-color: lightgreen;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.flex-size .two
+{
+width: 25%;
+background-color: lightblue;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.flex-size .icon span 
+{
+    margin-left: 2rem;
+    color: yellow;
+}
+.flex-wrap
+{
+    border: 3px solid orange;
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-wrap .numberone
+{
+padding: 20px;
+background-color: lightgreen;
+width: 175px;
+margin: 10px;
+}
+.flex-wrap .numbertwo
+{
+    padding: 20px;
+    background-color: lightblue;
+    width: 175px;
+    margin: 10px; 
+}
+.flex-wrap .numberthree
+{
+    padding: 20px;
+    background-color: purple;
+    width: 175px;
+    margin: 10px; 
+}
+.flex-wrap .numberfour
+{
+    padding: 20px;
+    background-color: darkslateblue;
+    width: 175px;
+    margin: 10px; 
+}
+.flex-wrap .numberfive
+{
+    padding: 20px;
+    background-color: yellow;
+    width: 175px;
+    margin: 10px; 
+}
+.flex-wrap .numbersix
+{
+    padding: 20px;
+    background-color: orange;
+    width: 175px;
+    margin: 10px; 
+}
+.flex-wrap .numberseven
+{
+    padding: 20px;
+    background-color: rgb(146, 28, 28);
+    width: 175px;
+    margin: 10px; 
+}
+.flex-wrap .numbereight
+{
+    padding: 20px;
+    background-color: gray;
+    width: 175px;
+    margin: 10px; 
+}
+.flex-wrap .numbernine
+{
+    padding: 20px;
+    background-color: lightgreen;
+    width: 175px;
+    margin: 10px; 
+}
+.flex-wrap .numberten
+{
+    padding: 20px;
+    background-color: darkgreen;
+    width: 175px;
+    margin: 10px; 
+}
+.flex-wrap-numbers
+{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
