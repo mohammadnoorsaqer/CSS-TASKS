@@ -401,3 +401,63 @@ margin: 10px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.web-page
+{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    margin-top: 1rem;
+}
+.web-page, .left-linkns,.right-links, ul
+{
+    display: flex;
+    gap: 1rem;
+}
+.web-page .logo img
+{
+
+    height: 200px;
+}
+.web-page .logo
+{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+}
+.forms
+{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+#search
+{
+    border-radius: 16px;
+    width: 400px;
+    padding: 5px;
+}
+.web-page .btns
+{
+    display: flex;
+    gap: 10px;
+}
+.web-page .btns button {
+padding: 5px;
+    border-radius: 10px;
+    width: 120px;
+}
+.bottom-links
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px;
+}
+.youtube-mockup
+{
+    
+}
